@@ -1,0 +1,20 @@
+# Grading infrastructure (not distributed)
+CLAUDE.md
+eta-challenge-grader/
+crossing-challenge-grader/
+
+# Secrets
+.hash_salt
+**/.hash_salt
+
+# --- Test/calibration scratch ---
+mock_submission/
+mock_eta/
+
+# --- Standard cruft ---
+.DS_Store
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.docker_cache/

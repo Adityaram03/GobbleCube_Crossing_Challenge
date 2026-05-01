@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+
+# Raw annotations and intermediate artifacts — never ship
+data/raw/
+data/tracklets_raw.parquet
+
+# Held-out eval — lives in the grader, not the starter
+data/eval.parquet
+
+# Hashing salt — used by data/build_windows.py; never ship
+.hash_salt
